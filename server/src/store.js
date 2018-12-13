@@ -22,6 +22,8 @@ AuthorModel.hasMany(BookModel);
 BookModel.belongsTo(AuthorModel);
 
 // create mock data with a seed
+//comment all this if you want to keep your data in the database
+//--->
 casual.seed(123);
 db.sync({ force: true }).then(() => {
   _.times(10, () => {
@@ -37,6 +39,7 @@ db.sync({ force: true }).then(() => {
     });
   });
 });
+//<----
 
 const Author = db.models.author;
 const Book = db.models.book;
