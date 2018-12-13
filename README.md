@@ -19,5 +19,5 @@ Authentication with auth0-js <br>
 <br>
 This app you can: <br>
 <br>
-Create a new User though auth0 app<br>
+Create a new User through auth0 app<br>
 Create a new Boom ( user need to be login ) <br>
